@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    background: linear-gradient(rgba(55, 55, 245, 0.288), rgb(102, 20, 102));
+    padding: 1%;
+}
+
+.searchBar{
+    /* padding-left: 3%; */
+    position: relative;
+    width: 15%;
+}
+    
+#todaysForcast{
+    position:relative;
+    border: 5px solid gray;
+    margin-left: 25%;
+}
+#dateCtn{
+
+}
+.fiveDay{
+    border: 5px solid gray;
+    margin: 2%;
+    margin-left: 5%;
+    margin-right: 85%;
+    padding: 1%;
+    /* display: flex;
+    justify-content: flex-start; */
+    /* display: inline-flex; */
+    /* flex-direction: row; */
+}
